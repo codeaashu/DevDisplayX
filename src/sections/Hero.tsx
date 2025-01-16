@@ -116,7 +116,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg text-gray-300 md:text-xl">
-            Institute of Electrical and Electronics Engineers IGDTUW Student Branch.
+            2 Month Open Source Impact with DevDisplay!
           </p>
         </motion.div>
 
