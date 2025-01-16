@@ -1,2 +1,1 @@
-# DevDisplayX
-Part of DevDisplay
+# IEEE Official Website

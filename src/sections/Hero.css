@@ -1,0 +1,177 @@
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  margin-top: 60px; 
+  background-image: url('https://storage.googleapis.com/prd-mercan-asset/2023/12/182951a6-img_4256-e1701917255923.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  margin-top: 10px;
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.counters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+
+.counter {
+  text-align: center;
+  color: #ccc;
+  flex: 1 1 30%;
+  min-width: 200px;
+  max-width: 250px;
+  margin: 10px 0;
+}
+
+.counter h2 {
+  font-size: 1.8rem;
+  color: #7042f8;
+  margin-bottom: 8px;
+}
+
+.counter p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Explore Button */
+.explore-button {
+  background: linear-gradient(to right, #9333ea, #3b82f6);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.explore-button:hover {
+  transform: scale(1.05);
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: white;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icon:hover {
+  color: #7042f8;
+  transform: scale(1.1);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 15px;
+  }
+
+  .explore-button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+
+  .social-icon {
+    font-size: 1.4rem;
+  }
+
+  .counter h2 {
+    font-size: 1.2rem;
+  }
+
+  .counter p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .explore-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .social-icons {
+    gap: 10px;
+  }
+
+  .counter h2 {
+    font-size: 1.2rem;
+  }
+
+  .counter p {
+    font-size: 1.3rem;
+  }
+}
