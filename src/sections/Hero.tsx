@@ -126,7 +126,7 @@ const Hero = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          Explore our student branch
+          Kickstart Your Open Source Journey
         </motion.div>
 
 
