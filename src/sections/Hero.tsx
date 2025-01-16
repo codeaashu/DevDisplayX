@@ -111,7 +111,7 @@ const Hero = () => {
           <h1 className="text-3xl font-extrabold text-white md:text-4xl lg:text-5xl">
             Welcome to{' '}
             <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-              IEEE IGDTUW
+              DevSpring
             </span>
           </h1>
 
